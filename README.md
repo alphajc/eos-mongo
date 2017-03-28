@@ -29,30 +29,32 @@
 
         1. 创建用户
 
-    ```javascript
-        var user = eosMongo.user;
-        user.createUser = (payload, (error)=>{});
-        // payload
-        //{
-        //  name: String,
-        //	dept: String,
-        //	email: String,
-        //	tel: String,
-        //	username: String,
-        //	id: String,
-        //	password: String
-        //}
-    ```
+        ```javascript
+            var user = eosMongo.user;
+            user.createUser = (payload, (error)=>{});
+            // payload
+            //{
+            //  name: String,
+            //	dept: String,
+            //	email: String,
+            //	tel: String,
+            //	username: String,
+            //	id: String,
+            //	password: String
+            //}
+        ```
 
         2. 查询全部用户
-    ```javascript
-        user.findAll((error, users)=>{});
-    ```
+
+        ```javascript
+            user.findAll((error, users)=>{});
+        ```
 
         3. 清空用户
-    ```javascript
-        user.empty((error)=>{});
-    ```
+
+        ```javascript
+            user.empty((error)=>{});
+        ```
 
 
 # License
