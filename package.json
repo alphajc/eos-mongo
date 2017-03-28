@@ -1,7 +1,7 @@
 {
   "name": "eos-mongo",
-  "version": "0.0.2",
-  "description": "Saves项目的用户信息存储及认证模块",
+  "version": "0.0.3",
+  "description": "Saves项目的mongodb存储模块",
   "main": "index.js",
   "repository": {
     "url": "git@github.com:gavin-chan/eos-mongo.git",
